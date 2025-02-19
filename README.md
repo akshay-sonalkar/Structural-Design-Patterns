@@ -3,14 +3,15 @@ This repository contains examples of structural design patterns in Java.
 
 Structural design patterns are design patterns that ease the design by identifying a simple way to realize relationships between entities. They help in creating flexible and reusable object-oriented software by establishing relationships between objects and classes. Here are some important structural design patterns
 
+
 ## Patterns Included
-- Adapter
-- Bridge
-- Composite
-- Decorator
-- Flyweight
-- Facade
-- Proxy
+* Adapter: Converts one interface to another.
+* Bridge: Separates abstraction from implementation.
+* Composite: Treats objects and compositions uniformly.
+* Decorator: Adds behavior to objects.
+* Facade: Simplifies interfaces.
+* Flyweight: Shares objects to allow fine-grained control.
+* Proxy: Controls access to objects.
 
 ## How to Run
 Each pattern has its own `Main.java` file. You can run each example by navigating to the respective directory and executing the `Main` class.
