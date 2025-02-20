@@ -12,27 +12,6 @@ Structural design patterns are design patterns that ease the design by identifyi
 * Facade: Simplifies interfaces.
 * Proxy: Controls access to objects.
 
-## How to Run
-Each pattern has its own `Main.java` file. You can run each example by navigating to the respective directory and executing the `Main` class.
-
-### Example
-To run the Flyweight pattern example:
-1. Open a terminal.
-2. Navigate to the `Flyweight` directory:
-    ```sh
-    cd Flyweight
-    ```
-3. Compile the `Main.java` file:
-    ```sh
-    javac Main.java
-    ```
-4. Run the compiled `Main` class:
-    ```sh
-    java Main
-    ```
-
-Repeat the above steps for other patterns by replacing `Flyweight` with the respective pattern name.
-
 ## Pattern Details
 
 ### Adapter Pattern
