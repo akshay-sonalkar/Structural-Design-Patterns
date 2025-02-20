@@ -10,7 +10,6 @@ Structural design patterns are design patterns that ease the design by identifyi
 * Composite: Treats objects and compositions uniformly.
 * Decorator: Adds behavior to objects.
 * Facade: Simplifies interfaces.
-* Flyweight: Shares objects to allow fine-grained control.
 * Proxy: Controls access to objects.
 
 ## How to Run
@@ -55,11 +54,6 @@ Repeat the above steps for other patterns by replacing `Flyweight` with the resp
 **Description**: Adds additional responsibilities to an object dynamically. It provides a flexible alternative to subclassing for extending functionality.
 
 **Real-time Example**: A coffee shop where you can add different condiments (like milk, sugar, etc.) to a coffee. Each condiment adds additional functionality (cost, description) to the base coffee object.
-
-### Flyweight Pattern
-**Description**: Reduces the cost of creating and manipulating a large number of similar objects by sharing as much data as possible with other similar objects.
-
-**Real-time Example**: A text editor where each character is a flyweight object. Instead of creating a new object for each character, the editor reuses existing character objects to save memory.
 
 ### Facade Pattern
 **Description**: Provides a simplified interface to a complex subsystem. It defines a higher-level interface that makes the subsystem easier to use.
